@@ -1,6 +1,6 @@
-package Array;
+package DataStructure.Array;
 
-import Stacks.ArrayStack;
+import DataStructure.Stacks.ArrayStack;
 
 public class isUnique {
     public static boolean isUnique(ArrayStack in) {

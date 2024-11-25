@@ -1,4 +1,4 @@
-package Array;
+package DataStructure.Array;
 
 public  class LinearArray {
 
@@ -20,7 +20,7 @@ public  class LinearArray {
         if(itemCount < array.length)
             array[itemCount++] = x;
         else
-            System.out.print("Array is Full");
+            System.out.print("DataStructure.Array is Full");
     }
 
     // method to insert elements at the beginning of an unordered array
@@ -35,7 +35,7 @@ public  class LinearArray {
             itemCount++;
         }
         else
-            System.out.print("Array is Full");
+            System.out.print("DataStructure.Array is Full");
     }
 
     // linear search: method to search any array
@@ -69,7 +69,7 @@ public  class LinearArray {
     public void displayArray()
     {
         // print the array
-        System.out.print("Array: ");
+        System.out.print("DataStructure.Array: ");
         for(int i = 0; i < itemCount; i++)
             System.out.print(array[i] + " ");
         System.out.println();

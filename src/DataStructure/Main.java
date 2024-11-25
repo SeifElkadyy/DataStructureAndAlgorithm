@@ -1,4 +1,4 @@
-package LeetCode;
+package DataStructure;
 
 public class Main {
 }

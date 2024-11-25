@@ -1,4 +1,4 @@
-package Stacks;
+package DataStructure.Stacks;
 
 public class StackDecompose {
     public static ArrayStack decompose(ArrayStack x) {

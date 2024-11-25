@@ -1,4 +1,4 @@
-package Queue;
+package DataStructure.Queue;
 
 public class  ShiftZeros {
     public static void shiftZeroes(QueueObj queue) {

@@ -1,4 +1,4 @@
-package Stacks;
+package DataStructure.Stacks;
 
 public class ArrayStack {
     private int[] stackArray; // The array that holds the items

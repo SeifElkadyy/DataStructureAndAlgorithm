@@ -1,4 +1,4 @@
-package Array;
+package DataStructure.Array;
 
 class Student {
     String firstName, lastName;

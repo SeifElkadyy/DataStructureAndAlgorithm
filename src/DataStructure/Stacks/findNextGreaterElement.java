@@ -1,11 +1,11 @@
-package Stacks;
+package DataStructure.Stacks;
 
 import java.util.Arrays;
 
 public class findNextGreaterElement {
     // Finds the next greater element for each element in the array (non-circular)
     public static int[] findNextGreaterElement(int[] arr) {
-        int[] result = new int[arr.length];  // Array to store results
+        int[] result = new int[arr.length];  // DataStructure.Array to store results
         ArrayStack stack = new ArrayStack(arr.length);  // Stack to keep track of elements
 
         // Traverse the array from the end

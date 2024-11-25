@@ -1,4 +1,4 @@
-package Stacks;
+package DataStructure.Stacks;
 
 public class indexSort {
     public static int[] indexSort(int []x){

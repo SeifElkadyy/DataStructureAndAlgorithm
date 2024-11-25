@@ -1,4 +1,4 @@
-package Array;
+package DataStructure.Array;
 
 public class LinearSortedArray {
     int Count;
@@ -21,7 +21,7 @@ public class LinearSortedArray {
             array[Pos] = x;
             Count++;
         } else {
-            System.out.println("Array is full");
+            System.out.println("DataStructure.Array is full");
         }
     }
 
@@ -69,7 +69,7 @@ public class LinearSortedArray {
     }
 
     public void displayArray() {
-        System.out.print("Sorted Array: ");
+        System.out.print("Sorted DataStructure.Array: ");
         for (int i = 0; i < Count; i++) {
             System.out.print(array[i] + " ");
         }

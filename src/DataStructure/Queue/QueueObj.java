@@ -1,4 +1,4 @@
-package Queue;
+package DataStructure.Queue;
 
 public class QueueObj
 {

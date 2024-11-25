@@ -1,4 +1,4 @@
-package Array;
+package DataStructure.Array;
 
 class LinearArrayListStudents        {
 
@@ -19,7 +19,7 @@ class LinearArrayListStudents        {
             }
             StudentsNumber++;
         } else {
-            System.out.println("Array is full");
+            System.out.println("DataStructure.Array is full");
         }
     }
     int linearSearch(Student x){
@@ -43,7 +43,7 @@ class LinearArrayListStudents        {
     public void displayArray()
     {
         // print the array
-        System.out.print("Array: ");
+        System.out.print("DataStructure.Array: ");
         for(int i = 0; i < students.length; i++)
             if(students[i]!=null)
                 System.out.print(students[i] + " ");

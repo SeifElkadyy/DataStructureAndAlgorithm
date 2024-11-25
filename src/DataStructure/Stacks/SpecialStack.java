@@ -1,4 +1,4 @@
-package Stacks;
+package DataStructure.Stacks;
 
 public class SpecialStack {
     public ArrayStack stack;
@@ -42,7 +42,7 @@ public class SpecialStack {
         return minStack.top(); // Return the top of minStack, which is the current minimum
     }
 
-    // Other operations as per your Stacks.ArrayStack implementation
+    // Other operations as per your DataStructure.Stacks.ArrayStack implementation
     public boolean isEmpty() {
         return stack.isEmpty();
     }
